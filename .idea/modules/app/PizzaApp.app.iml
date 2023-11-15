@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module external.linked.project.id=":app" external.linked.project.path="$MODULE_DIR$/../../../app" external.root.project.path="$MODULE_DIR$/../../.." external.system.id="GRADLE" external.system.module.group="PizzaApp" external.system.module.version="unspecified" type="JAVA_MODULE" version="4">
+  <component name="FacetManager">
+    <facet type="android-gradle" name="Android-Gradle">
+      <configuration>
+        <option name="GRADLE_PROJECT_PATH" value=":app" />
+        <option name="LAST_SUCCESSFUL_SYNC_AGP_VERSION" value="4.1.1" />
+        <option name="LAST_KNOWN_AGP_VERSION" value="8.0.2" />
+      </configuration>
+    </facet>
+    <facet type="android" name="Android">
+      <configuration>
+        <option name="SELECTED_BUILD_VARIANT" value="debug" />
+        <option name="ALLOW_USER_CONFIGURATION" value="false" />
+        <option name="MANIFEST_FILE_RELATIVE_PATH" value="/src/main/AndroidManifest.xml" />
+        <option name="RES_FOLDER_RELATIVE_PATH" value="/src/main/res" />
+        <option name="RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="TEST_RES_FOLDERS_RELATIVE_PATH" value="" />
+        <option name="ASSETS_FOLDER_RELATIVE_PATH" value="/src/main/assets" />
+      </configuration>
+    </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.8" allPlatforms="JVM [1.8]" useProjectSettings="false">
+        <compilerSettings>
+          <option name="additionalArguments" value="-Xallow-no-source-files" />
+        </compilerSettings>
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/../../../app/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$MODULE_DIR$/../../../app/build/intermediates/compile_and_runtime_not_namespaced_r_class_jar/debug/R.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/db84a0ae68c58aa3512cbdfe66ab2e31/navigation-fragment-ktx-2.3.5-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/ee9fe127db78a8c1e93f41c3654d0454/jetified-fragment-ktx-1.2.4-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/31d03c3fefab45730819e8da1c6d0f75/navigation-ui-ktx-2.3.5-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/14bb62e2fa16ca6b8d854d0fbfe85f92/navigation-runtime-ktx-2.3.5-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/22bbf2b50246a4e0e7913e6adc1d49c4/jetified-activity-ktx-1.1.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/a482b41400c7602b7ea9b399caddb171/jetified-core-ktx-1.7.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/62e4d5eb34e255e5380e9e5dc73fd2ce/jetified-lifecycle-viewmodel-ktx-2.2.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/2530a8c6bebf63d5abef40797e34e3a0/navigation-common-ktx-2.3.5-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/623c550ffcf1295154b590c74d1222e5/jetified-collection-ktx-1.1.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/ea3a337fec253ce91acf268aeb37e893/jetified-lifecycle-livedata-core-ktx-2.2.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/ea842e2bc4610143d460d1c0521e851f/jetified-lifecycle-runtime-ktx-2.2.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/6a033a2807bf7c85602d5768e159625e/jetified-kotlinx-coroutines-android-1.3.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/277637ef18ac9cc0cfa069652beedb45/jetified-kotlinx-coroutines-core-1.3.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/6ea83798be456b368d8247de9f8518db/jetified-kotlin-stdlib-1.5.31.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/38a0aab742155427965c5c904541103f/jetified-annotations-13.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/98618eee23ac524d976acd61233c2013/jetified-kotlin-stdlib-common-1.5.31.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/7c5cd586ac372baeadd213bef179baf4/navigation-ui-2.3.5-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/744a0d2634db53d2d33d727f8c0e9a39/material-1.4.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/df47467d34598083f9b1e7e40c063d4f/appcompat-1.4.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/e006a10dd3bb083ba85c7c6079723b32/jetified-viewpager2-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/b1b3f5c8d03d59264aa39cce7dce4797/recyclerview-1.1.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/fa283a9ca6572b817e09cb1dcce2b94b/cardview-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/7918a8645ea1321aab1debe95117c441/legacy-support-v4-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/6dac1a5827ac3d96448d228552c3c0a6/legacy-support-core-ui-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/d678b23913ccde401242d13cf04b8b79/coordinatorlayout-1.1.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/6bcb1a118f17199fbff9b95b650b983c/dynamicanimation-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/538af70493ee21c0b7214ce43c49a330/navigation-fragment-2.3.5-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/ef9a5ff9226a006748892a450732b965/fragment-1.3.6-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/0b7de360eb200db6d16394d41c7ed3db/transition-1.3.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/3f87507fce8fc4b989845f22b14f8e5f/jetified-appcompat-resources-1.4.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/6bf4febe3ef286788a317024886695b4/vectordrawable-animated-1.1.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/3a3b218c24debef033d4fb850bd559ed/vectordrawable-1.1.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/cc61fd7a8fc9ecb6bba04887dcecd83a/navigation-runtime-2.3.5-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/55ead432af82f449b6cd1099f9dddfcb/jetified-activity-1.2.4-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/be1632dac8b3774d5fb39be3f2795c95/drawerlayout-1.1.1-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/fdff95a3bd7d3709c9be1ede50e31036/media-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/2bb2dac3c1f56dd312583e1c77d1b207/legacy-support-core-utils-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/00c047685bcc6ccc43d6f781dc6ac5d8/viewpager-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/1e9400c55d6650caf131dfceab833aa1/slidingpanelayout-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/bba63144326deef4f9611a80df51d1df/customview-1.1.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/d0c80f5c5d401708b93564a891414b9d/loader-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/46c478048708ad7e8904fbe5c0cdb8ca/swiperefreshlayout-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/8b68254b82cbf616ad3e6b43f36a79cd/asynclayoutinflater-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/2e8255989b820dbea3706be51ef8ee0a/core-1.7.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/15141773113ca3b1f5390d462783cd0c/lifecycle-runtime-2.4.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/18b1b4ea15daf3f3ec408e2d8bb85598/cursoradapter-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/089927288e4f07302685cf042efaaf74/jetified-lifecycle-viewmodel-savedstate-2.3.1-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/c6df3a28c6f6d106cd6b7788da501e1f/jetified-savedstate-1.1.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/9acbd243de419947a67c4db0c23f2c69/versionedparcelable-1.1.1-api.jar;C:/Users/Stevi/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.1.0/1f27220b47669781457de0d600849a5de0e89909/collection-1.1.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/ce429dc93676ccd2ad5a6744c258789f/lifecycle-viewmodel-2.3.1-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/52c2f9b1ea97be2dd84e798cf5b69538/lifecycle-livedata-2.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/acb62768cdbf6343afe5c7a52fd37df3/lifecycle-livedata-core-2.3.1-api.jar;C:/Users/Stevi/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.4.0/1fdb7349701e9cf2f0a69fc10642b6fef6bb3e12/lifecycle-common-2.4.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/f18da8a420e06b9cbf4acffcf261572a/core-runtime-2.1.0-api.jar;C:/Users/Stevi/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.1.0/b3152fc64428c9354344bd89848ecddc09b6f07e/core-common-2.1.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/eb247a6e5635873ed5d38dbaf1dedf61/documentfile-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/e18e301ffce49b0ca4b6223c1ecb7c1d/localbroadcastmanager-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/25a38d99db7ba78e3149edfbcef20e93/print-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/e803285f1a73286cf0f1e820e1c2fe6b/interpolator-1.0.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/68e4953d0538d1db055f5f6baa402770/navigation-common-2.3.5-api.jar;C:/Users/Stevi/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.3.0/21f49f5f9b85fc49de712539f79123119740595/annotation-1.3.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/48cf0fada4052c162b8684882de4e6ac/jetified-annotation-experimental-1.1.0-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/b5065fe69dc8ee50225f9dee74ac0e8b/constraintlayout-2.1.2-api.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/c017f575b5199b423aef0b9dfe20abf6/jetified-converter-gson-2.6.2.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/5462b428efa4f2375beaff20efbaf5df/jetified-retrofit-2.6.2.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/f7567e02d6aa27ea55b3a2019ba9fad9/jetified-okhttp-3.12.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/0cb3efaead775eba2b288431a7abf018/jetified-okio-1.15.0.jar;C:/Users/Stevi/.gradle/caches/transforms-2/files-2.1/82a7763e623d560b18e086c435ca1125/jetified-gson-2.8.5.jar;C:/Users/Stevi/AppData/Local/Android/Sdk/platforms/android-31/android.jar;C:/Users/Stevi/AppData/Local/Android/Sdk/build-tools/30.0.3/core-lambda-stubs.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="app_debug" />
+          <option name="jvmTarget" value="1.8" />
+          <option name="languageVersion" value="1.4" />
+          <option name="apiVersion" value="1.4" />
+          <option name="pluginClasspaths">
+            <array />
+          </option>
+          <option name="pluginOptions">
+            <array />
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
+  </component>
+  <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_8">
+    <output url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debug/classes" />
+    <output-test url="file://$MODULE_DIR$/../../../app/build/intermediates/javac/debugUnitTest/classes" />
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/../../../app">
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/.gradle" />
+      <excludeFolder url="file://$MODULE_DIR$/../../../app/build" />
+    </content>
+    <orderEntry type="jdk" jdkName="Android API 31 Platform" jdkType="Android SDK" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
