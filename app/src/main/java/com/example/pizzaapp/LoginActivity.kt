@@ -32,8 +32,8 @@ class LoginActivity : AppCompatActivity() {
                 Toast.LENGTH_SHORT).show()
             if (data==null){
                 //insert data
-                databaseHelper.addAccount("daffa@amikom.ac.id","Daffa Ardi",
-                "Cashier","1234")
+                databaseHelper.addAccount("stevi.ema@amikom.ac.id","Stevi Ema W",
+                "Cashier","12345")
             }
 
             val email = txtUsername.text.toString().trim()
