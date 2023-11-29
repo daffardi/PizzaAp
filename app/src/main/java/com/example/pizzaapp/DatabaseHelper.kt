@@ -4,6 +4,8 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import android.view.Menu
+import com.example.pizzaapp.model.MenuModel
 
 class DatabaseHelper (context: Context): SQLiteOpenHelper(
     context,DATABASE_NAME,null,DATABASE_VERSION
@@ -20,6 +22,14 @@ class DatabaseHelper (context: Context): SQLiteOpenHelper(
         private val COLUMN_NAME = "name"
         private val COLUMN_LEVEL = "level"
         private val COLUMN_PASSWORD = "password"
+
+        //tabel menu
+        private val TABEL_MENU = "menu"
+        //coloumn menu tabel
+        private val COLUMN_ID_MENU = "idMenu"
+        private val COLUMN_NAMA_MENU = "menuName"
+        private val COLUMN_PRICE_MENU = "price"
+        private val COLUMN_IMAGE = "photo"
     }
 
     private val CREATE_ACCOUNT_TABLE = ("CREATE TABLE"+TABLE_ACCOUNT+"("
@@ -93,6 +103,12 @@ class DatabaseHelper (context: Context): SQLiteOpenHelper(
         cursor.close()
         db.close()
         return name
+    }
+    fun addMenu(menu: MenuModel{
+        val db = this.writableDatabase
+        val values = ContentValues
+        values.put(COLUMN_ID_MENU,menu.id)
+        values.put(COLUMN_NAMA_MENU)
     }
 
 }
