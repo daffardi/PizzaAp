@@ -4,8 +4,10 @@ import android.content.ContentValues
 import android.content.Context
 import android.database.sqlite.SQLiteDatabase
 import android.database.sqlite.SQLiteOpenHelper
+import android.graphics.Bitmap
 import android.view.Menu
 import com.example.pizzaapp.model.MenuModel
+import java.io.ByteArrayOutputStream
 
 class DatabaseHelper (context: Context): SQLiteOpenHelper(
     context,DATABASE_NAME,null,DATABASE_VERSION
@@ -24,7 +26,7 @@ class DatabaseHelper (context: Context): SQLiteOpenHelper(
         private val COLUMN_PASSWORD = "password"
 
         //tabel menu
-        private val TABEL_MENU = "menu"
+        private val TABLE_MENU = "menu"
         //coloumn menu tabel
         private val COLUMN_ID_MENU = "idMenu"
         private val COLUMN_NAMA_MENU = "menuName"
@@ -39,6 +41,8 @@ class DatabaseHelper (context: Context): SQLiteOpenHelper(
     private val DROP_ACCOUNT_TABLE = "DROP TABLE IF EXISTS $TABLE_ACCOUNT"
     override fun onCreate(p0: SQLiteDatabase?) {
         p0?.execSQL(CREATE_ACCOUNT_TABLE)
+        p0?.execSQL(CREATE_MENU_TABLE)
+        p0?.execSQL(INSERT_ACCOUNT_TABLE)
     }
 
     override fun onUpgrade(p0: SQLiteDatabase?, p1: Int, p2: Int) {
@@ -108,7 +112,16 @@ class DatabaseHelper (context: Context): SQLiteOpenHelper(
         val db = this.writableDatabase
         val values = ContentValues
         values.put(COLUMN_ID_MENU,menu.id)
-        values.put(COLUMN_NAMA_MENU)
+        values.put(COLUMN_NAMA_MENU,menu.name)
+        values.put(COLUMN_PRICE_MENU,menu.price)
+        //prepare image
+        val byteOutputStream = ByteArrayOutputStream()
+        val imageInByte:ByteArray
+        menu.image.compress(Bitmap.CompressFormat.JPEG,100,byteOutputStream)
+        imageInByte = byteOutputStream.toByteArray()
+        values.put(COLUMN_IMAGE,imageInByte)
+
+        val result = db.insert(TABLE)
     }
 
 }
